@@ -5,6 +5,7 @@
 转载请备注个名字，谢谢
 
 11.28 ⚠️无时长功能，只有签到，视频，宝箱
+1.18 调整显示错误
 
 日均0.18收益
 
@@ -172,7 +173,7 @@ QQreadboxinfo();//宝箱
 else if (i==4&& task.data&&task.data.watchVideo.videoCount==0)
 QQreadsign();//金币签到
 
-else if (i==5&& task.data&&task.data.watchVideo.videoCount<=9)
+else if (i==5&& task.data&&task.data.watchVideo.videoCount<=19)
 QQreadvideo();//视频任务	    
 
 
@@ -251,7 +252,7 @@ tz+=
 	'天\n'+
     '【已看视频】:'+
     task.data.watchVideo.videoCount+
-	'/10次\n'
+	'/20次\n'
 	  
 
 resolve()
